@@ -22,7 +22,7 @@ To use the Loan Calculator, follow these steps:
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/loan-calculator.git
+   git clone https://github.com/anaumsharif/LOAN-CALCULATOR-JAVASCRIPT.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -64,13 +64,12 @@ Here are some potential enhancements and features that could be added to the Loa
 - **UI Improvements**: Enhance the user interface with more interactive elements and customization options.
 
 ### Contributors
-
-This project is maintained by [Your Name] and contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
+ Feel free to fork the repository, make improvements, and submit pull requests.
 
 ### Conclusion
 
 The Loan Calculator project serves as a practical tool for understanding loan payments and amortization schedules. It demonstrates fundamental concepts of JavaScript programming and web development while providing a useful financial utility for users. We hope you find it helpful and educational!
 
-For any questions or feedback, please contact [Your Email Address].
+For any questions or feedback, please contact [anaumsharif@gmail.com].
 
 Thank you for using the Loan Calculator! Happy calculating! 📊💰
