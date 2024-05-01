@@ -1,0 +1,80 @@
+html {
+    --u:  3.12vmin; /* size */
+    --c1: #dce9ef;
+    --c2: #7d9099;
+    --c3: #142f3c;
+    --c4: #2a4856;
+    --gp: 50%/ calc(var(--u) * 10) calc(var(--u) * 5.71);
+    height: 100vh;
+	background: 
+		conic-gradient(from 60deg at 66.5% 100%, var(--c1) 0 30deg, #fff0 0 360deg) var(--gp),
+		conic-gradient(from 270deg at 33.5% 100%, var(--c2) 0 30deg, #fff0 0 360deg) var(--gp),
+		radial-gradient(circle at 99.5% 53%, var(--c3) 0 calc(var(--u) * 1.65), #fff0 calc(var(--u) * 1.65 + 1px) 100%) var(--gp),
+		radial-gradient(circle at 0.5% 53%, var(--c3) 0 calc(var(--u) * 1.65), #fff0 calc(var(--u) * 1.65 + 1px) 100%) var(--gp), 
+		radial-gradient(circle at 50% 100%, var(--c3) 0 calc(var(--u) * 1.65), #fff0 calc(var(--u) * 1.65 + 1px) 100%) var(--gp), 
+		conic-gradient(from 120deg at 50% 50%, var(--c4) 0 120deg, #fff0 0 360deg) var(--gp),
+		conic-gradient(from 90deg at 82.85% 50.5%, var(--c3) 0 90deg, #fff0 0 360deg) var(--gp),
+		conic-gradient(from 180deg at 17.15% 50.5%, var(--c3) 0 90deg, #fff0 0 360deg) var(--gp),
+		conic-gradient(from 120deg at 50% 17.5%, var(--c2) 0 60deg, var(--c1) 0 120deg, #fff0 0 360deg) var(--gp),
+		linear-gradient(90deg, #fff0 0 33.5%,  var(--c3) 0 66.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from 0deg at 50% 50%, var(--c1) 0 60.5deg, var(--c4) 0 299.5deg, var(--c2) 0 360deg) var(--gp);
+}
+
+body{
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    margin:100px auto;
+
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.calculator{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    display :block;
+    margin-bottom: 5px;
+}
+
+
+.input-group input{
+    width :100%;
+    padding: 8px;
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+}
+
+button{
+    display: block;
+    margin:0 auto;
+    padding :10px 20px;
+    background-color: #4caf50;
+    border :none;
+    border-radius :4px ;
+    color:#fff;
+    cursor :pointer;
+}
+
+.result{
+    margin-top :20px;
+    padding :10px;
+    background-color:#f9f9f9;
+    border :1px solid #ccc;
+    border-radius: 4px;
+
+}
